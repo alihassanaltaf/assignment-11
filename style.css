@@ -1,0 +1,61 @@
+.colornaming{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    font-size: 10px;
+}
+.hexagon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #FAA18F;
+    font-size: 10px;
+}
+.shorthexagon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:#808080;
+    font-size: 10px;
+}
+.rgb{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(255,78,90);
+    font-size: 10px;
+}
+.hsl{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:hsl(180, 50%, 50%);
+    font-size: 10px;
+}
+.backgroundimage{
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    background-image:url(./coffee.jpg) ;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.lineargradient{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(red, green);
+    border:solid rgba(255, 190, 250, 0.811);
+    margin: auto;
+    color: hsl(150 90% 60%);
+    border-radius: 10px;
+    
+}
+.button{
+    background: radial-gradient(circle,green ,orange);
+}
+
+
+
+
